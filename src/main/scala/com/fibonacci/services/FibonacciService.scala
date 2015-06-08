@@ -1,8 +1,5 @@
 package com.fibonacci.services
 
-/**
- * Created by Jeff on 6/8/2015.
- */
 object FibonacciService {
 
   // Note that Scala's Stream has built in caching of previously calculated values.

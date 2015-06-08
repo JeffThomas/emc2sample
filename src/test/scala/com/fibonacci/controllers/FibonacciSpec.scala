@@ -3,7 +3,6 @@ package com.fibonacci.controllers
 import com.typesafe.config.ConfigFactory
 import org.specs2.mutable.Specification
 import spray.http.StatusCodes._
-import spray.http._
 import spray.testkit.Specs2RouteTest
 
 class FibonacciSpec extends Specification with Specs2RouteTest with Fibonacci {

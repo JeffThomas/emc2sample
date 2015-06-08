@@ -1,9 +1,6 @@
 package com.fibonacci.services
 
-import com.typesafe.config.ConfigFactory
 import org.specs2.mutable.Specification
-import spray.http.StatusCodes._
-import spray.testkit.Specs2RouteTest
 
 class FibonacciServiceSpec extends Specification {
    "FibonacciService" should {
